@@ -1,0 +1,434 @@
+/* ==========================================================
+   wedding-custom.css
+   Elegant overrides & additions for Abdallah ❤ Rana
+   ========================================================== */
+
+/* ── Google Fonts loaded in <head>, available as:
+      'Cormorant Garamond'  — romantic serif for headings
+      'Montserrat'          — clean sans for body / labels
+      'Sacramento'          — script accent font
+   ────────────────────────────────────────────────────────── */
+
+
+/* ── 1. GLOBAL TYPOGRAPHY UPGRADES ────────────────────────── */
+
+body {
+  font-family: 'Montserrat', 'Work Sans', Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 400;
+}
+
+/* ── 2. NAVIGATION ─────────────────────────────────────────── */
+
+.fh5co-nav ul li a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+
+/* ── 3. HERO SECTION ───────────────────────────────────────── */
+
+#fh5co-header {
+  height: 110vh;
+  min-height: 700px;
+}
+
+#fh5co-header .overlay {
+  background: rgba(30, 20, 15, 0.48);
+}
+
+/* Names */
+.hero-names {
+  font-family: 'Sacramento', cursive !important;
+  font-size: 80px !important;
+  line-height: 1.1 !important;
+  color: #fff !important;
+  margin-bottom: 0 !important;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.35);
+}
+
+@media (max-width: 768px) {
+  .hero-names { font-size: 54px !important; }
+}
+@media (max-width: 480px) {
+  .hero-names { font-size: 42px !important; }
+}
+
+/* Monogram / fingerprint */
+.hero-monogram {
+  margin: 18px auto 14px;
+}
+.hero-monogram img {
+  width: 70px;
+  height: auto;
+  opacity: 0.9;
+}
+
+/* Date */
+.hero-date {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.85);
+  margin: 0 0 22px;
+}
+
+/* Quranic verse block */
+.hero-verse {
+  max-width: 520px;
+  margin: 0 auto 32px;
+  padding: 18px 24px;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.hero-verse p {
+  font-family: 'Amiri', 'Traditional Arabic', serif;
+  font-size: 17px;
+  line-height: 1.9;
+  color: rgba(255,255,255,0.92);
+  margin: 0 0 6px;
+  direction: rtl;
+}
+.hero-verse span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: rgba(255,255,255,0.6);
+  direction: rtl;
+  display: block;
+}
+
+@media (max-width: 480px) {
+  .hero-verse { padding: 14px 14px; }
+  .hero-verse p { font-size: 15px; }
+}
+
+/* Hero CTA button */
+.btn-hero {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 11px !important;
+  letter-spacing: 0.25em !important;
+  text-transform: uppercase !important;
+  padding: 14px 36px !important;
+  background: transparent !important;
+  /* color: #fff !important; */
+  border: 1px solid rgba(255,255,255,0.7) !important;
+  border-radius: 2px !important;
+  transition: all 0.3s ease !important;
+  margin-top: 10px;
+}
+.btn-hero:hover {
+  background: rgba(255,255,255,0.15) !important;
+  border-color: #fff !important;
+  color: #fff !important;
+}
+
+/* ── 4. ELEGANT COUNTDOWN ──────────────────────────────────── */
+
+.elegant-countdown-wrapper {
+  margin: 24px auto 28px;
+  text-align: center;
+}
+
+.countdown-label-top {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 18px;
+}
+
+.elegant-countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  flex-wrap: nowrap;
+}
+
+.ec-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 16px;
+  min-width: 70px;
+}
+
+.ec-number {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 58px;
+  font-weight: 300;
+  line-height: 1;
+  color: #fff;
+  letter-spacing: 0.02em;
+  display: block;
+  /* subtle glow */
+  text-shadow: 0 0 30px rgba(255,255,255,0.25);
+}
+
+.ec-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.55);
+  margin-top: 6px;
+  display: block;
+}
+
+.ec-sep {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 42px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.3);
+  line-height: 1;
+  padding-bottom: 16px; /* align with numbers visually */
+  align-self: flex-start;
+  margin-top: 2px;
+}
+
+/* Responsive countdown */
+@media (max-width: 600px) {
+  .ec-unit    { padding: 0 10px; min-width: 56px; }
+  .ec-number  { font-size: 42px; }
+  .ec-label   { font-size: 8px; }
+  .ec-sep     { font-size: 30px; }
+}
+@media (max-width: 380px) {
+  .ec-unit    { padding: 0 7px; min-width: 46px; }
+  .ec-number  { font-size: 34px; }
+  .ec-sep     { font-size: 24px; }
+}
+
+
+/* ── 5. SECTION TITLES ─────────────────────────────────────── */
+
+.section-title {
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-size: 42px !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.05em;
+  color: #3a2e2e !important;
+  margin-bottom: 8px !important;
+}
+
+.section-divider {
+  text-align: center;
+  margin: 0 auto 24px;
+  color: #b8967a;
+  font-size: 18px;
+  letter-spacing: 0.3em;
+}
+.section-divider span {
+  display: inline-block;
+  position: relative;
+}
+.section-divider span::before,
+.section-divider span::after {
+  content: '';
+  display: inline-block;
+  width: 60px;
+  height: 1px;
+  background: #d4b8a0;
+  vertical-align: middle;
+  margin: 0 12px;
+}
+
+@media (max-width: 480px) {
+  .section-title { font-size: 32px !important; }
+  .section-divider span::before,
+  .section-divider span::after { width: 30px; }
+}
+
+
+/* ── 6. EVENT SECTION ──────────────────────────────────────── */
+
+#fh5co-event {
+  /* override fixed height so content always fits */
+  height: auto !important;
+  padding: 7em 0;
+}
+
+#fh5co-event .display-t,
+#fh5co-event .display-tc {
+  height: auto !important;
+  display: block !important;
+}
+
+/* New event card style */
+.event-card {
+  background: rgba(255,255,255,0.94);
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 16px;
+  padding: 40px 40px 36px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.08);
+}
+
+@media (max-width: 600px) {
+  .event-card { padding: 28px 20px 24px; }
+}
+
+.event-card-title {
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-size: 30px !important;
+  font-weight: 400;
+  color: #3a2e2e;
+  text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding-bottom: 18px;
+  margin-bottom: 24px !important;
+  letter-spacing: 0.04em;
+}
+
+.event-meta {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+.event-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  color: #5a4a4a;
+}
+.event-meta-item i {
+  font-size: 16px;
+  color: #b8967a;
+}
+.event-meta-item span {
+  font-weight: 500;
+}
+
+.event-location-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+  margin-bottom: 28px;
+  letter-spacing: 0.02em;
+}
+
+/* Bigger, rounded map */
+.event-map-wrapper {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+.event-map-wrapper iframe {
+  display: block;
+  width: 100%;
+  height: 420px;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .event-map-wrapper iframe { height: 280px; }
+}
+@media (max-width: 480px) {
+  .event-map-wrapper iframe { height: 220px; }
+}
+
+
+/* ── 7. VIDEO / HIGHLIGHTS ─────────────────────────────────── */
+
+/* Responsive 16:9 embed wrapper (use this for YouTube/Vimeo) */
+.fh5co-video-embed {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.15);
+}
+.fh5co-video-embed iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Original fh5co-video poster style — keep it clean */
+.fh5co-video {
+  border-radius: 12px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.15);
+  height: 460px;
+}
+@media (max-width: 768px) {
+  .fh5co-video { height: 300px; }
+}
+@media (max-width: 480px) {
+  .fh5co-video { height: 220px; }
+}
+
+
+/* ── 8. GALLERY POLISH ─────────────────────────────────────── */
+
+#fh5co-gallery-list li {
+  border-radius: 12px;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+#fh5co-gallery-list li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 36px rgba(0,0,0,0.22);
+}
+
+
+/* ── 9. GENERAL LAYOUT / CENTERING FIXES ───────────────────── */
+
+/* Ensure the hero display-tc is properly centered */
+#fh5co-header .display-t {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+#fh5co-header .display-tc {
+  display: table-cell !important;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 80px;
+}
+
+/* Prevent any stray left-shift on the countdown or content */
+.flipTimebox,
+.elegant-countdown-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* ── 10. SCROLL & MISC ─────────────────────────────────────── */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Go-to-top button */
+.gototop a {
+  background: rgba(58,46,46,0.6);
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+.gototop a:hover {
+  background: rgba(58,46,46,0.9);
+}
