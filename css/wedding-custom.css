@@ -555,3 +555,10 @@ html {
     width: 220px;
   }
 }
+
+@media (max-width: 768px) {
+  #fh5co-header {
+    background-image: url("../images/mobile-bgg.jpg") !important;
+    background-position: center center !important;
+  }
+}
