@@ -227,6 +227,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter,
 #fh5co-event,
 .fh5co-bg {
+  background-color: #faf8f6;
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -977,7 +978,7 @@ form label {
 }
 
 .fh5co-section-gray {
-  background: rgba(0, 0, 0, 0.04);
+  background: #faf8f6;
 }
 
 .couple-wrap {

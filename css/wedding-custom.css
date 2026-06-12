@@ -9,30 +9,31 @@
       'Sacramento'          — script accent font
    ────────────────────────────────────────────────────────── */
 
-
 /* ── 1. GLOBAL TYPOGRAPHY UPGRADES ────────────────────────── */
 
 body {
-  font-family: 'Montserrat', 'Work Sans', Arial, sans-serif;
+  font-family: "Montserrat", "Work Sans", Arial, sans-serif;
   font-weight: 300;
   letter-spacing: 0.01em;
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Cormorant Garamond", Georgia, serif;
   font-weight: 400;
 }
 
 /* ── 2. NAVIGATION ─────────────────────────────────────────── */
 
 .fh5co-nav ul li a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 11px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   font-weight: 500;
 }
-
 
 /* ── 3. HERO SECTION ───────────────────────────────────────── */
 
@@ -47,19 +48,23 @@ h1, h2, h3, h4 {
 
 /* Names */
 .hero-names {
-  font-family: 'Sacramento', cursive !important;
+  font-family: "Sacramento", cursive !important;
   font-size: 80px !important;
   line-height: 1.1 !important;
   color: #fff !important;
   margin-bottom: 0 !important;
-  text-shadow: 0 2px 20px rgba(0,0,0,0.35);
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.35);
 }
 
 @media (max-width: 768px) {
-  .hero-names { font-size: 54px !important; }
+  .hero-names {
+    font-size: 54px !important;
+  }
 }
 @media (max-width: 480px) {
-  .hero-names { font-size: 42px !important; }
+  .hero-names {
+    font-size: 42px !important;
+  }
 }
 
 /* Monogram / fingerprint */
@@ -74,11 +79,11 @@ h1, h2, h3, h4 {
 
 /* Date */
 .hero-date {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   letter-spacing: 0.35em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.85);
+  color: rgba(255, 255, 255, 0.85);
   margin: 0 0 22px;
 }
 
@@ -87,47 +92,51 @@ h1, h2, h3, h4 {
   max-width: 520px;
   margin: 0 auto 32px;
   padding: 18px 24px;
-  border-top: 1px solid rgba(255,255,255,0.3);
-  border-bottom: 1px solid rgba(255,255,255,0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 .hero-verse p {
-  font-family: 'Amiri', 'Traditional Arabic', serif;
+  font-family: "Amiri", "Traditional Arabic", serif;
   font-size: 17px;
   line-height: 1.9;
-  color: rgba(255,255,255,0.92);
+  color: rgba(255, 255, 255, 0.92);
   margin: 0 0 6px;
-  direction: rtl;
 }
+
 .hero-verse span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 11px;
   letter-spacing: 0.1em;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   direction: rtl;
   display: block;
 }
 
 @media (max-width: 480px) {
-  .hero-verse { padding: 14px 14px; }
-  .hero-verse p { font-size: 15px; }
+  .hero-verse {
+    padding: 14px 14px;
+  }
+  .hero-verse p {
+    font-size: 15px;
+  }
 }
 
 /* Hero CTA button */
 .btn-hero {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   font-size: 11px !important;
   letter-spacing: 0.25em !important;
   text-transform: uppercase !important;
   padding: 14px 36px !important;
   background: transparent !important;
   /* color: #fff !important; */
-  border: 1px solid rgba(255,255,255,0.7) !important;
+  border: 1px solid rgba(255, 255, 255, 0.7) !important;
   border-radius: 2px !important;
   transition: all 0.3s ease !important;
   margin-top: 10px;
 }
 .btn-hero:hover {
-  background: rgba(255,255,255,0.15) !important;
+  background: rgba(255, 255, 255, 0.15) !important;
   border-color: #fff !important;
   color: #fff !important;
 }
@@ -140,11 +149,11 @@ h1, h2, h3, h4 {
 }
 
 .countdown-label-top {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 10px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.55);
+  color: rgba(255, 255, 255, 0.55);
   margin-bottom: 18px;
 }
 
@@ -165,7 +174,7 @@ h1, h2, h3, h4 {
 }
 
 .ec-number {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: "Cormorant Garamond", Georgia, serif;
   font-size: 58px;
   font-weight: 300;
   line-height: 1;
@@ -173,24 +182,24 @@ h1, h2, h3, h4 {
   letter-spacing: 0.02em;
   display: block;
   /* subtle glow */
-  text-shadow: 0 0 30px rgba(255,255,255,0.25);
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
 }
 
 .ec-label {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 9px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.55);
+  color: rgba(255, 255, 255, 0.55);
   margin-top: 6px;
   display: block;
 }
 
 .ec-sep {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 42px;
   font-weight: 300;
-  color: rgba(255,255,255,0.3);
+  color: rgba(255, 255, 255, 0.3);
   line-height: 1;
   padding-bottom: 16px; /* align with numbers visually */
   align-self: flex-start;
@@ -199,22 +208,37 @@ h1, h2, h3, h4 {
 
 /* Responsive countdown */
 @media (max-width: 600px) {
-  .ec-unit    { padding: 0 10px; min-width: 56px; }
-  .ec-number  { font-size: 42px; }
-  .ec-label   { font-size: 8px; }
-  .ec-sep     { font-size: 30px; }
+  .ec-unit {
+    padding: 0 10px;
+    min-width: 56px;
+  }
+  .ec-number {
+    font-size: 42px;
+  }
+  .ec-label {
+    font-size: 8px;
+  }
+  .ec-sep {
+    font-size: 30px;
+  }
 }
 @media (max-width: 380px) {
-  .ec-unit    { padding: 0 7px; min-width: 46px; }
-  .ec-number  { font-size: 34px; }
-  .ec-sep     { font-size: 24px; }
+  .ec-unit {
+    padding: 0 7px;
+    min-width: 46px;
+  }
+  .ec-number {
+    font-size: 34px;
+  }
+  .ec-sep {
+    font-size: 24px;
+  }
 }
-
 
 /* ── 5. SECTION TITLES ─────────────────────────────────────── */
 
 .section-title {
-  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-family: "Cormorant Garamond", Georgia, serif !important;
   font-size: 42px !important;
   font-weight: 300 !important;
   letter-spacing: 0.05em;
@@ -235,7 +259,7 @@ h1, h2, h3, h4 {
 }
 .section-divider span::before,
 .section-divider span::after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 60px;
   height: 1px;
@@ -245,11 +269,14 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 480px) {
-  .section-title { font-size: 32px !important; }
+  .section-title {
+    font-size: 32px !important;
+  }
   .section-divider span::before,
-  .section-divider span::after { width: 30px; }
+  .section-divider span::after {
+    width: 30px;
+  }
 }
-
 
 /* ── 6. EVENT SECTION ──────────────────────────────────────── */
 
@@ -267,24 +294,26 @@ h1, h2, h3, h4 {
 
 /* New event card style */
 .event-card {
-  background: rgba(255,255,255,0.94);
-  border: 1px solid rgba(0,0,0,0.08);
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 16px;
   padding: 40px 40px 36px;
-  box-shadow: 0 8px 40px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
 }
 
 @media (max-width: 600px) {
-  .event-card { padding: 28px 20px 24px; }
+  .event-card {
+    padding: 28px 20px 24px;
+  }
 }
 
 .event-card-title {
-  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-family: "Cormorant Garamond", Georgia, serif !important;
   font-size: 30px !important;
   font-weight: 400;
   color: #3a2e2e;
   text-align: center;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 18px;
   margin-bottom: 24px !important;
   letter-spacing: 0.04em;
@@ -301,7 +330,7 @@ h1, h2, h3, h4 {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   letter-spacing: 0.08em;
   color: #5a4a4a;
@@ -315,7 +344,7 @@ h1, h2, h3, h4 {
 }
 
 .event-location-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #777;
   text-align: center;
@@ -328,7 +357,7 @@ h1, h2, h3, h4 {
   width: 100%;
   overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
 }
 .event-map-wrapper iframe {
   display: block;
@@ -338,12 +367,15 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 768px) {
-  .event-map-wrapper iframe { height: 280px; }
+  .event-map-wrapper iframe {
+    height: 280px;
+  }
 }
 @media (max-width: 480px) {
-  .event-map-wrapper iframe { height: 220px; }
+  .event-map-wrapper iframe {
+    height: 220px;
+  }
 }
-
 
 /* ── 7. VIDEO / HIGHLIGHTS ─────────────────────────────────── */
 
@@ -354,11 +386,12 @@ h1, h2, h3, h4 {
   height: 0;
   overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 8px 40px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15);
 }
 .fh5co-video-embed iframe {
   position: absolute;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   border: 0;
@@ -367,28 +400,32 @@ h1, h2, h3, h4 {
 /* Original fh5co-video poster style — keep it clean */
 .fh5co-video {
   border-radius: 12px;
-  box-shadow: 0 8px 40px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15);
   height: 460px;
 }
 @media (max-width: 768px) {
-  .fh5co-video { height: 300px; }
+  .fh5co-video {
+    height: 300px;
+  }
 }
 @media (max-width: 480px) {
-  .fh5co-video { height: 220px; }
+  .fh5co-video {
+    height: 220px;
+  }
 }
-
 
 /* ── 8. GALLERY POLISH ─────────────────────────────────────── */
 
 #fh5co-gallery-list li {
   border-radius: 12px;
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
 }
 #fh5co-gallery-list li:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 36px rgba(0,0,0,0.22);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.22);
 }
-
 
 /* ── 9. GENERAL LAYOUT / CENTERING FIXES ───────────────────── */
 
@@ -415,7 +452,6 @@ h1, h2, h3, h4 {
   justify-content: center;
 }
 
-
 /* ── 10. SCROLL & MISC ─────────────────────────────────────── */
 
 html {
@@ -424,11 +460,98 @@ html {
 
 /* Go-to-top button */
 .gototop a {
-  background: rgba(58,46,46,0.6);
+  background: rgba(58, 46, 46, 0.6);
   border-radius: 100%;
   width: 50px;
   height: 50px;
 }
 .gototop a:hover {
-  background: rgba(58,46,46,0.9);
+  background: rgba(58, 46, 46, 0.9);
+}
+
+/* ── CLOSING QUOTE SECTION ── */
+#fh5co-closing {
+  height: 100vh;
+  background: #faf8f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.closing-quote {
+  font-family: 'Sacramento', cursive;
+  font-size: 62px;
+  color: #3a2e2e;
+  line-height: 1.4;
+  margin: 0;
+  opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+  .closing-quote { font-size: 44px; }
+}
+@media (max-width: 480px) {
+  .closing-quote { font-size: 32px; }
+}
+
+#fh5co-header .display-tc .btn-hero,
+.fh5co-cover .display-tc .btn-hero {
+  background: #fff !important;
+  color: #3a2e2e !important;
+  border: none !important;
+  padding: 14px 36px !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 11px !important;
+  letter-spacing: 0.25em !important;
+  text-transform: uppercase !important;
+  border-radius: 2px !important;
+  transition: all 0.3s ease !important;
+  margin-top: 10px;
+}
+
+#fh5co-header .display-tc .btn-hero:hover,
+#fh5co-header .display-tc .btn-hero:focus,
+#fh5co-header .display-tc .btn-hero:active,
+.fh5co-cover .display-tc .btn-hero:hover,
+.fh5co-cover .display-tc .btn-hero:focus,
+.fh5co-cover .display-tc .btn-hero:active {
+  background: #fff !important;
+  color: #3a2e2e !important;
+  border: none !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25) !important;
+}
+
+.hero-cta-label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 16px;
+}
+
+.save-date-buttons {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+
+.save-date-buttons .btn-hero i {
+  margin-right: 8px;
+  font-size: 13px;
+}
+
+@media (max-width: 480px) {
+  .save-date-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .save-date-buttons .btn-hero {
+    width: 220px;
+  }
 }
